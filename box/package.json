@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:prod": "ng build --configuration production --base-href https://box-lin.github.io",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "serve:ssr:box": "node dist/box/server/server.mjs"
