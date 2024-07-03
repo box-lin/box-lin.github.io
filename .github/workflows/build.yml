@@ -28,7 +28,7 @@ jobs:
       if: success()
       uses: peaceiris/actions-gh-pages@v3
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.ACTIONTOKEN }}
         publish_dir: ./box/dist/gh-pages
 
     - name: Clean up .angular/cache
