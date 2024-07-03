@@ -25,7 +25,7 @@ jobs:
       working-directory: ./box
 
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
+      uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
         publish_dir: ./box/dist/gh-page
         publish_branch: gh-page
