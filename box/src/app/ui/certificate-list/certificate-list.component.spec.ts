@@ -8,7 +8,7 @@ describe('CertificateListComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [CertificateListComponent]
+      imports: [CertificateListComponent]
     })
     .compileComponents();
 
