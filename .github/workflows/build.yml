@@ -27,8 +27,8 @@ jobs:
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@4.1.1
       with:
-        publish_dir: ./box/dist/gh-page
-        publish_branch: gh-page
+        folder: ./box/dist/gh-page
+        branch: gh-page
 
     - name: Clean up .angular/cache
       run: rm -rf .angular/cache
