@@ -23,3 +23,14 @@ jobs:
     - name: Build
       run: npm run build
       working-directory: ./box
+
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./box/dist/gh-page
+        publish_branch: gh-page
+
+    - name: Clean up .angular/cache
+      run: rm -rf .angular/cache
+        
