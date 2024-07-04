@@ -1,1 +1,13 @@
-<p>certificate-list works!</p>
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-4 col-xl-3" *ngFor="let cert of certificates; let i = index">
+      <div class="card mt-4 text-bg-info">
+        <div class="card-body">
+          <h5 class="card-title">{{ cert.title }}</h5>
+          <div class="card-text" [innerHTML]="cert.body"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

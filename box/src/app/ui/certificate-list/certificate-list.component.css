@@ -1,0 +1,5 @@
+.fixed-card {
+  display: flex;
+  flex-direction: column;
+  height: 18rem; /* Set a fixed height for the card */
+}
