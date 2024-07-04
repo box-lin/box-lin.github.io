@@ -4,7 +4,7 @@
   <br>
   <br>
   <br>
-  <a href="https://wangchujiang.com/">
+  <a href="">
     <img width="60" height="60" src="https://raw.githubusercontent.com/box-lin/projectcard/fda1af2551731ad6dbcbdb669ca2fc6d50e48394/img/icon.svg" />
   </a>
   <br>
