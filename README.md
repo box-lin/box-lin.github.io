@@ -1,1 +1,1 @@
-# box-lin.github.io
+![Box-Lin-Stat](https://github-readme-stats.vercel.app/api?username=box-lin&show_icons=true&theme=radical)

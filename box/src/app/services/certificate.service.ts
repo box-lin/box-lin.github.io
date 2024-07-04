@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { rootUrl, certificateLabel } from '../constants/service';
+import { issuesUrl, certificateLabel } from '../constants/service';
 import { map, Observable } from 'rxjs';
 import { Certificate } from '../interface/certificate';
 
@@ -13,7 +13,7 @@ export class CertificateService {
   constructor(private http: HttpClient) { }
 
   getCertificates(): Observable<Certificate[]> {
-    return this.http.get<Certificate[]>(rootUrl).pipe(
+    return this.http.get<Certificate[]>(issuesUrl).pipe(
       map((issues) =>
         issues
           .filter((issue) => issue.labels.some((label) => label.name === certificateLabel))

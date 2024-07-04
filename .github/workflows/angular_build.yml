@@ -1,4 +1,4 @@
-name: Build Job
+name: Release angular web
 on: 
   push:
     branches:
