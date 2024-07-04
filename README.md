@@ -17,8 +17,12 @@
     <a href=""><img width="18" height="18" src="https://raw.githubusercontent.com/jaywcjlove/jaywcjlove/master/imgs/mail.svg?sanitize=true" /></a>
   </p>
   <p>
-    Hi, welcome to my personal landing page👋
+    <p><img src="https://readme-typing-svg.demolab.com/?lines=Hi, welcome to my landing page.."> 👋</p>    
   </p>
+  <p>
+      I am currently a software engineer at Visa working on B2B customer service applications.
+  </p>
+
 <!--   <p>
     <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white">
     <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white">
