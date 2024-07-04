@@ -19,7 +19,7 @@
   <p>
     Hi, welcome to my personal landing page👋
   </p>
-  <p>
+<!--   <p>
     <img src="https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white">
     <img src="https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white">
     <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white">
@@ -27,7 +27,7 @@
     <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
     <img src="https://img.shields.io/badge/jenkins-%232C5263.svg?style=for-the-badge&logo=jenkins&logoColor=white)">
   </p>
-
+ -->
  <hr/>
  <h3>Activities</h3>
  <p><img src="https://leetcard.jacoblin.cool/boxlin?theme=light&amp;font=Noto%20Sans%20Sharada&amp;ext=contest" alt="LeetCode Stats"></p>
