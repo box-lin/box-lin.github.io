@@ -1,0 +1,4 @@
+.active-stroked-button {
+  border: 1px groove currentColor;
+  background-color: transparent;
+}

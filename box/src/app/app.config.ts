@@ -1,9 +1,9 @@
 import { ApplicationConfig, importProvidersFrom, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
-
+import { provideRouter, RouterLink } from '@angular/router';
 import { routes } from './app.routes';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -13,6 +13,7 @@ export const appConfig: ApplicationConfig = {
     // to import module
     importProvidersFrom(
       MarkdownModule.forRoot()
-    )
+    ), 
+    provideAnimationsAsync()
   ]
 };
