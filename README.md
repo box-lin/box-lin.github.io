@@ -31,9 +31,9 @@
  -->
  
 ```
-- Currently a software engineer at Visa working on B2B client service applications.
-- Interested in topics about distributed computing, identify access management system, and computer networks.
-- I work on Java, C#, C++, Typescript, Go most of the time.
+          - Currently a software engineer at Visa working on B2B client service applications.
+          - Interested in topics about distributed computing, identify access management system, and computer networks.
+          - I work on Java, C#, C++, Typescript, Go most of the time.
 ```
 
  <div align="center">
