@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { MarkdownService } from 'ngx-markdown';
 import { HomepageService } from '../../services/homepage.service';
+import { MatCard, MatCardContent } from '@angular/material/card';
 
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [],
+  imports: [MatCard, MatCardContent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })
