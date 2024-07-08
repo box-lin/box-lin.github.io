@@ -44,3 +44,9 @@ jobs:
       with:
         github_token: ${{ secrets.ACTIONTOKEN }}
         branch: main
+        
+    - name: Send out event
+      uses: peter-evans/repository-dispatch@v1
+      with:
+        token: ${{ secrets.ACTIONTOKEN }}
+        event-type: fetch-leetcode-done
