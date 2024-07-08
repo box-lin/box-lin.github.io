@@ -31,7 +31,7 @@ jobs:
     
     - name: Configure Git
       run: |
-        git config --global user.name "box-lin'
+        git config --global user.name "box-lin"
         git config --global user.email 'boxiang.lin@wsu.edu'
 
     - name: Commit
