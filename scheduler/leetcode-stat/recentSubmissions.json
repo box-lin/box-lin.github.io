@@ -1,5 +1,12 @@
 [
   {
+    "title": "Keys and Rooms",
+    "titleSlug": "keys-and-rooms",
+    "timestamp": "1720482521",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Path Sum",
     "titleSlug": "path-sum",
     "timestamp": "1720481285",
@@ -130,13 +137,6 @@
     "titleSlug": "path-sum",
     "timestamp": "1716051182",
     "statusDisplay": "Wrong Answer",
-    "lang": "python3"
-  },
-  {
-    "title": "Count Good Nodes in Binary Tree",
-    "titleSlug": "count-good-nodes-in-binary-tree",
-    "timestamp": "1716013298",
-    "statusDisplay": "Accepted",
     "lang": "python3"
   }
 ]
