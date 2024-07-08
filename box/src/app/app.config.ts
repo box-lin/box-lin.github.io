@@ -4,6 +4,7 @@ import { routes } from './app.routes';
 import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { MarkdownModule } from 'ngx-markdown';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { DatePipe } from '@angular/common';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -12,8 +13,9 @@ export const appConfig: ApplicationConfig = {
     provideHttpClient(withInterceptorsFromDi()),
     // to import module
     importProvidersFrom(
-      MarkdownModule.forRoot()
+      MarkdownModule.forRoot(),
     ), 
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    DatePipe,
   ]
 };

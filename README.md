@@ -21,8 +21,10 @@
 
  
 ```
-- Currently a software engineer at Visa working on B2B client service applications.
-- I work on Java, Python, C#, C++, Typescript, Go most of the time.
+- Currently living in Santa Clara, CA.
+- Previously Software Engineer at Visa Inc.
+- Interested in software engineering, numerical analysis, number theory.
+- Part time at University of Texas at Austin for Master of Computer Science study.
 ```
 
  <div align="center">

@@ -1,0 +1,36 @@
+name: Fetch leetcode scheduler
+on schedule:
+  - cron: '0 */6 * * *'
+
+jobs:
+  fetch-leetcode:
+    runs-on: ubuntu-latest
+    steps:
+     - name: Checkout repository
+        uses: actions/checkout@v4
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4.0.2
+      with:
+        node-version: '20.x'
+
+    - name: Install dependencies
+      run: npm install
+      working-directory: ./scheduler/leetcode-stat
+
+    - name: Run the script
+      run: node app.js
+      working-directory: ./scheduler/leetcode-stat
+    
+    - name: Configure Git
+      run: |
+        git config --global user.name 'box-lin'
+        git config --global user.email 'boxiang.lin@wsu.edu'
+
+    - name: Commit and push changes
+      run: |
+        git add .
+        git commit -m '[Bot] leetcode recent submissions JSON'
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.ACTIONTOKEN  }}
