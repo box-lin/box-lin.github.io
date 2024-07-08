@@ -26,13 +26,16 @@ jobs:
     
     - name: Configure Git
       run: |
-        git config --global user.name 'box-lin'
-        git config --global user.email 'boxiang.lin@wsu.edu'
+        git config --global user.name 'github-actions[bot]'
+        git config --global user.email '41898282+github-actions[bot]@users.noreply.github.comu'
 
-    - name: Commit and push changes
+    - name: Commit
       run: |
         git add .
         git commit -m '[Bot] leetcode recent submissions JSON'
-        git push origin main
-      env:
-        GITHUB_TOKEN: ${{ secrets.ACTIONTOKEN  }}
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.ACTIONTOKEN }}
+        branch: main
