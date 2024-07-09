@@ -1,5 +1,12 @@
 [
   {
+    "title": "Course Schedule IV",
+    "titleSlug": "course-schedule-iv",
+    "timestamp": "1720483814",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Binary Tree Right Side View",
     "titleSlug": "binary-tree-right-side-view",
     "timestamp": "1720483268",
@@ -130,13 +137,6 @@
     "titleSlug": "path-sum-ii",
     "timestamp": "1716055877",
     "statusDisplay": "Wrong Answer",
-    "lang": "python3"
-  },
-  {
-    "title": "Path Sum",
-    "titleSlug": "path-sum",
-    "timestamp": "1716055704",
-    "statusDisplay": "Accepted",
     "lang": "python3"
   }
 ]
