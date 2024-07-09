@@ -1,5 +1,12 @@
 [
   {
+    "title": "Binary Tree Right Side View",
+    "titleSlug": "binary-tree-right-side-view",
+    "timestamp": "1720483268",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Keys and Rooms",
     "titleSlug": "keys-and-rooms",
     "timestamp": "1720482521",
@@ -130,13 +137,6 @@
     "titleSlug": "path-sum",
     "timestamp": "1716055704",
     "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Path Sum",
-    "titleSlug": "path-sum",
-    "timestamp": "1716051182",
-    "statusDisplay": "Wrong Answer",
     "lang": "python3"
   }
 ]
