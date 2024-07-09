@@ -35,13 +35,9 @@ jobs:
         git config --global user.email 'boxiang.lin@wsu.edu'
 
     - name: Check for changes
-      id: changes_check
+      id: check_changes
       run: |
-        if [[ -z $(git status --porcelain) ]]; then
-          echo "::set-output name=changes::false"
-        else
-          echo "::set-output name=changes::true"
-        fi
+        git diff --exit-code || echo "::set-output name=changes::true"
 
     - name: Commit changes
       if: steps.check_changes.outputs.changes == 'true'
