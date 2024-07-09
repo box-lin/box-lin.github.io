@@ -34,18 +34,30 @@ jobs:
         git config --global user.name "box-lin"
         git config --global user.email 'boxiang.lin@wsu.edu'
 
-    - name: Commit
+    - name: Check for changes
+      id: changes_check
+      run: |
+        if [[ -z $(git status --porcelain) ]]; then
+          echo "::set-output name=changes::false"
+        else
+          echo "::set-output name=changes::true"
+        fi
+
+    - name: Commit changes
+      if: steps.check_changes.outputs.changes == 'true'
       run: |
         git add .
         git commit -m '[Bot] leetcode recent submissions JSON'
-        
+
     - name: Push changes
+      if: steps.check_changes.outputs.changes == 'true'
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.ACTIONTOKEN }}
         branch: main
-        
+
     - name: Send out event
+      if: steps.check_changes.outputs.changes == 'true'
       uses: peter-evans/repository-dispatch@v1
       with:
         token: ${{ secrets.ACTIONTOKEN }}
