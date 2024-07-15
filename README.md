@@ -23,7 +23,7 @@
 ```
 - Currently living in Santa Clara, CA.
 - Previously Software Engineer at Visa Inc.
-  - I've worked projects that enahancing client experiences and services for following Visa product.
+  - I've worked on projects that enahancing client experiences and services for following Visa product.
     - Tap To Phone (Enable merchant to receive payment without traditional POS machine)
     - Cardinal commerce (Payment authentication)
     - Authorized .NET (Helps thousands of businesses simplify payment)
