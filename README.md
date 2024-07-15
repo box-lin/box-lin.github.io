@@ -23,6 +23,10 @@
 ```
 - Currently living in Santa Clara, CA.
 - Previously Software Engineer at Visa Inc.
+  - I've worked projects that enahancing client experiences and services for following Visa product.
+    - Tap To Phone (Enable merchant to receive payment without traditional POS machine)
+    - Cardinal commerce (Payment authentication)
+    - Authorized .NET (Helps thousands of businesses simplify payment)
 - Interested in software engineering, numerical analysis, number theory.
 - Part time at University of Texas at Austin for Master of Computer Science study.
 ```
