@@ -1,5 +1,12 @@
 [
   {
+    "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+    "titleSlug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+    "timestamp": "1722399005",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Course Schedule IV",
     "titleSlug": "course-schedule-iv",
     "timestamp": "1720483814",
@@ -130,13 +137,6 @@
     "titleSlug": "path-sum-ii",
     "timestamp": "1716055917",
     "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Path Sum II",
-    "titleSlug": "path-sum-ii",
-    "timestamp": "1716055877",
-    "statusDisplay": "Wrong Answer",
     "lang": "python3"
   }
 ]
