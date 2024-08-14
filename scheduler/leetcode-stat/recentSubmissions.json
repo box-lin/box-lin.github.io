@@ -1,5 +1,12 @@
 [
   {
+    "title": "Binary Subarrays With Sum",
+    "titleSlug": "binary-subarrays-with-sum",
+    "timestamp": "1723609643",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Maximum Subarray Sum with One Deletion",
     "titleSlug": "maximum-subarray-sum-with-one-deletion",
     "timestamp": "1723443635",
@@ -129,13 +136,6 @@
     "title": "Check if Word Can Be Placed In Crossword",
     "titleSlug": "check-if-word-can-be-placed-in-crossword",
     "timestamp": "1722734808",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Check if Word Can Be Placed In Crossword",
-    "titleSlug": "check-if-word-can-be-placed-in-crossword",
-    "timestamp": "1722734252",
     "statusDisplay": "Accepted",
     "lang": "python3"
   }
