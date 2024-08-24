@@ -1,5 +1,12 @@
 [
   {
+    "title": "Greatest Common Divisor of Strings",
+    "titleSlug": "greatest-common-divisor-of-strings",
+    "timestamp": "1724471820",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Subarray Sum Equals K",
     "titleSlug": "subarray-sum-equals-k",
     "timestamp": "1723688447",
@@ -130,13 +137,6 @@
     "titleSlug": "check-if-word-can-be-placed-in-crossword",
     "timestamp": "1722735102",
     "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Check if Word Can Be Placed In Crossword",
-    "titleSlug": "check-if-word-can-be-placed-in-crossword",
-    "timestamp": "1722735021",
-    "statusDisplay": "Wrong Answer",
     "lang": "python3"
   }
 ]
