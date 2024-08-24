@@ -1,5 +1,12 @@
 [
   {
+    "title": "Regions Cut By Slashes",
+    "titleSlug": "regions-cut-by-slashes",
+    "timestamp": "1724484577",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Greatest Common Divisor of Strings",
     "titleSlug": "greatest-common-divisor-of-strings",
     "timestamp": "1724471820",
@@ -129,13 +136,6 @@
     "title": "Check if Word Can Be Placed In Crossword",
     "titleSlug": "check-if-word-can-be-placed-in-crossword",
     "timestamp": "1722735940",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Check if Word Can Be Placed In Crossword",
-    "titleSlug": "check-if-word-can-be-placed-in-crossword",
-    "timestamp": "1722735102",
     "statusDisplay": "Accepted",
     "lang": "python3"
   }
