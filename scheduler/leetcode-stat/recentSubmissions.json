@@ -1,5 +1,26 @@
 [
   {
+    "title": "Pascal's Triangle II",
+    "titleSlug": "pascals-triangle-ii",
+    "timestamp": "1724641796",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
+    "title": "Pascal's Triangle",
+    "titleSlug": "pascals-triangle",
+    "timestamp": "1724641499",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
+    "title": "Pascal's Triangle",
+    "titleSlug": "pascals-triangle",
+    "timestamp": "1724641435",
+    "statusDisplay": "Accepted",
+    "lang": "python3"
+  },
+  {
     "title": "Isomorphic Strings",
     "titleSlug": "isomorphic-strings",
     "timestamp": "1724566148",
@@ -115,27 +136,6 @@
     "title": "Missing Ranges",
     "titleSlug": "missing-ranges",
     "timestamp": "1723219019",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Missing Ranges",
-    "titleSlug": "missing-ranges",
-    "timestamp": "1723218805",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
-    "titleSlug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
-    "timestamp": "1723086270",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "First Missing Positive",
-    "titleSlug": "first-missing-positive",
-    "timestamp": "1723007924",
     "statusDisplay": "Accepted",
     "lang": "python3"
   }
