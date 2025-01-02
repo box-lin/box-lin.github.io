@@ -31,8 +31,7 @@ jobs:
       run: |
         cp ./box/dist/box/browser/index.html ./box/dist/box/browser/404.html
         
-    - name: Deploy
-      if: success()
+    - name: Push
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.ACTIONTOKEN }}
