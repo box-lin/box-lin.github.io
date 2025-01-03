@@ -1,12 +1,5 @@
 [
   {
-    "title": "Two Best Non-Overlapping Events",
-    "titleSlug": "two-best-non-overlapping-events",
-    "timestamp": "1733702436",
-    "statusDisplay": "Time Limit Exceeded",
-    "lang": "python3"
-  },
-  {
     "title": "Linked List in Binary Tree",
     "titleSlug": "linked-list-in-binary-tree",
     "timestamp": "1725676018",
