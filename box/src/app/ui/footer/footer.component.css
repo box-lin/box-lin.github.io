@@ -1,0 +1,11 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center; /* Centers the content horizontally */
+  padding: 8px 0; /* Adds vertical padding */
+}
+
+.footer span {
+  font-size: 18px;
+}
