@@ -1,10 +1,24 @@
 [
   {
+    "title": "Merge Intervals",
+    "titleSlug": "merge-intervals",
+    "timestamp": "1734852054",
+    "statusDisplay": "Accepted",
+    "lang": "LeetcodeCN Graphql Not Supported"
+  },
+  {
     "title": "Two Best Non-Overlapping Events",
     "titleSlug": "two-best-non-overlapping-events",
     "timestamp": "1733702436",
     "statusDisplay": "Time Limit Exceeded",
     "lang": "python3"
+  },
+  {
+    "title": "Find the Maximum Length of a Good Subsequence I",
+    "titleSlug": "find-the-maximum-length-of-a-good-subsequence-i",
+    "timestamp": "1725827997",
+    "statusDisplay": "Accepted",
+    "lang": "LeetcodeCN Graphql Not Supported"
   },
   {
     "title": "Linked List in Binary Tree",
@@ -49,94 +63,10 @@
     "lang": "python3"
   },
   {
-    "title": "Pascal's Triangle II",
-    "titleSlug": "pascals-triangle-ii",
-    "timestamp": "1724641796",
+    "title": "Find the Maximum Length of a Good Subsequence I",
+    "titleSlug": "find-the-maximum-length-of-a-good-subsequence-i",
+    "timestamp": "1725598704",
     "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Pascal's Triangle",
-    "titleSlug": "pascals-triangle",
-    "timestamp": "1724641499",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Pascal's Triangle",
-    "titleSlug": "pascals-triangle",
-    "timestamp": "1724641435",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Isomorphic Strings",
-    "titleSlug": "isomorphic-strings",
-    "timestamp": "1724566148",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Number of Same-End Substrings",
-    "titleSlug": "number-of-same-end-substrings",
-    "timestamp": "1724539251",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Number of Same-End Substrings",
-    "titleSlug": "number-of-same-end-substrings",
-    "timestamp": "1724535560",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Number of Same-End Substrings",
-    "titleSlug": "number-of-same-end-substrings",
-    "timestamp": "1724533089",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Number of Same-End Substrings",
-    "titleSlug": "number-of-same-end-substrings",
-    "timestamp": "1724532384",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Regions Cut By Slashes",
-    "titleSlug": "regions-cut-by-slashes",
-    "timestamp": "1724484577",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Greatest Common Divisor of Strings",
-    "titleSlug": "greatest-common-divisor-of-strings",
-    "timestamp": "1724471820",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Subarray Sum Equals K",
-    "titleSlug": "subarray-sum-equals-k",
-    "timestamp": "1723688447",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Binary Subarrays With Sum",
-    "titleSlug": "binary-subarrays-with-sum",
-    "timestamp": "1723609643",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Maximum Subarray Sum with One Deletion",
-    "titleSlug": "maximum-subarray-sum-with-one-deletion",
-    "timestamp": "1723443635",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
+    "lang": "LeetcodeCN Graphql Not Supported"
   }
 ]
