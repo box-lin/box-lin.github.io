@@ -26,6 +26,7 @@
   <img src="https://leetcode-badge.haozibi.dev/v1cn/ranking/ddos-h.svg" />
   <img src="https://leetcode-badge.haozibi.dev/v1cn/solved/ddos-h.svg" />
   <img src="https://leetcode-badge.haozibi.dev/v1cn/solved-rate/ddos-h.svg" />
+  <img src="https://leetcode-badge.haozibi.dev/v1cn/accepted/ddos-h.svg" />
   <img src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/ddos-h.svg?type=past-year&color=yellow" />
 </div>
 
