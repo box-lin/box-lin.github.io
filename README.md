@@ -23,10 +23,10 @@
   <img src="https://leetcode-badge.haozibi.dev/v1/solved-rate/boxlin.svg" />
   <img src="https://leetcode-badge.haozibi.dev/v1/accepted/boxlin.svg" />
   <br>
-  <img src="https://leetcode-badge.haozibi.dev/v1/ddos-h.svg"/>
-  <img src="https://leetcode-badge.haozibi.dev/v1/ranking/ddos-h.svg" />
-  <img src="https://leetcode-badge.haozibi.dev/v1/solved/ddos-h.svg" />
-  <img src="https://leetcode-badge.haozibi.dev/v1/solved-rate/ddos-h.svg" />
+  <img src="https://leetcode-badge.haozibi.dev/v1cn/ddos-h.svg"/>
+  <img src="https://leetcode-badge.haozibi.dev/v1cn/ranking/ddos-h.svg" />
+  <img src="https://leetcode-badge.haozibi.dev/v1cn/solved/ddos-h.svg" />
+  <img src="https://leetcode-badge.haozibi.dev/v1cn/solved-rate/ddos-h.svg" />
   <img src="https://leetcode-badge.haozibi.dev/v1cn/chart/submission-calendar/ddos-h.svg?type=past-year&color=yellow" />
 </div>
 
