@@ -58,7 +58,7 @@ async function fetchAndSaveRecentSubmissions(username, usernameCN) {
 
     const ret = [...x, ...y];
     ret.sort((a,b) => Number(b.timestamp) - Number(a.timestamp));
-    const recentSubmissions = ret.slice(0, 10);
+    const recentSubmissions = ret.slice(0, Math.min(10, ret.length));
     console.log(recentSubmissions);
     
     // Write recentSubmissions to a JSON file
