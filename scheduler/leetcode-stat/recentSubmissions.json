@@ -1,5 +1,12 @@
 [
   {
+    "title": "Frequency of the Most Frequent Element",
+    "titleSlug": "frequency-of-the-most-frequent-element",
+    "timestamp": "1736723686",
+    "statusDisplay": "Accepted",
+    "lang": "LeetcodeCN Graphql Not Supported"
+  },
+  {
     "title": "Minimum Initial Energy to Finish Tasks",
     "titleSlug": "minimum-initial-energy-to-finish-tasks",
     "timestamp": "1736041123",
@@ -59,13 +66,6 @@
     "title": "Linked List in Binary Tree",
     "titleSlug": "linked-list-in-binary-tree",
     "timestamp": "1725675590",
-    "statusDisplay": "Accepted",
-    "lang": "python3"
-  },
-  {
-    "title": "Linked List in Binary Tree",
-    "titleSlug": "linked-list-in-binary-tree",
-    "timestamp": "1725675584",
     "statusDisplay": "Accepted",
     "lang": "python3"
   }
