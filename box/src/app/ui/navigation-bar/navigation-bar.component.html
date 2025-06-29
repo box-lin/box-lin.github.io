@@ -22,7 +22,12 @@
     </div>
 
     <div class="navbar-nav">
-      <a class="nav-button" routerLink="/" routerLinkActive="active">
+      <a
+        class="nav-button"
+        routerLink="/"
+        routerLinkActive="active"
+        [routerLinkActiveOptions]="{ exact: true }"
+      >
         <mat-icon>home</mat-icon>
         <span>Home</span>
       </a>
