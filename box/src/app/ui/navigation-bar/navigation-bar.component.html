@@ -1,17 +1,39 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <div class="navbar-brand">
+      <a class="brand-button" routerLink="/">
+        <div class="brand-content">
+          <div class="brand-icon">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect width="24" height="24" rx="6" fill="var(--primary-color)" />
+              <path d="M7 7h10v10H7z" fill="white" />
+              <path d="M9 9h6v6H9z" fill="var(--primary-color)" />
+            </svg>
+          </div>
+          <span class="brand-text">Boxiang Lin</span>
+        </div>
+      </a>
+    </div>
 
- <mat-toolbar color="primary" class="sticky-toolbar">
-	<mat-toolbar-row>
-		<button mat-button [routerLink]="['/']">
-			[-Home-]
-		</button>
-		<button mat-button [routerLink]="['/project']" routerLinkActive="active-stroked-button">
-			Projects
-		</button>
-		<button mat-button [routerLink]="['/post']" routerLinkActive="active-stroked-button">
-			Posts
-		</button>
-	</mat-toolbar-row>
-</mat-toolbar>
-
-
- 
+    <div class="navbar-nav">
+      <a class="nav-button" routerLink="/" routerLinkActive="active">
+        <mat-icon>home</mat-icon>
+        <span>Home</span>
+      </a>
+      <a class="nav-button" routerLink="/project" routerLinkActive="active">
+        <mat-icon>code</mat-icon>
+        <span>Projects</span>
+      </a>
+      <a class="nav-button" routerLink="/post" routerLinkActive="active">
+        <mat-icon>article</mat-icon>
+        <span>Posts</span>
+      </a>
+    </div>
+  </div>
+</nav>
