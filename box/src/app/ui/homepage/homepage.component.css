@@ -5,6 +5,9 @@
     var(--background-color) 0%,
     var(--surface-color) 100%
   );
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 /* Hero Section */
@@ -37,6 +40,8 @@
   z-index: 1;
   max-width: 600px;
   margin: 0 auto;
+  text-align: center;
+  padding: 2rem;
 }
 
 .hero-avatar {
@@ -48,6 +53,7 @@
   border: 4px solid rgba(255, 255, 255, 0.2);
   box-shadow: var(--shadow-xl);
   transition: transform 0.3s ease;
+  margin-bottom: 1rem;
 }
 
 .hero-avatar img:hover {
@@ -55,7 +61,7 @@
 }
 
 .hero-title {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
   background: linear-gradient(45deg, #ffffff, #f0f9ff);
@@ -130,8 +136,8 @@ section {
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1.5rem;
-  margin-bottom: 2rem;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 .stat-card {
@@ -166,6 +172,8 @@ section {
   overflow: hidden;
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--border-color);
+  overflow-x: auto;
+  margin-top: 1rem;
 }
 
 .loading-bar {
@@ -270,7 +278,7 @@ section {
 .certificates-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
+  gap: 1rem;
 }
 
 .certificate-card {
@@ -423,4 +431,20 @@ section {
 
 .table-wrapper::-webkit-scrollbar-thumb:hover {
   background: var(--text-muted);
+}
+
+/* Custom status chip colors */
+.status-accepted {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.status-failed {
+  background-color: #f44336 !important;
+  color: white !important;
+}
+
+.status-language {
+  background-color: #2196f3 !important;
+  color: white !important;
 }

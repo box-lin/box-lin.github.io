@@ -7,6 +7,7 @@ import { RecentSubmission } from 'leetcode-query';
 import leetcodeSubmissions from '../../../../../scheduler/leetcode-stat/recentSubmissions.json';
 import { MatTableModule } from '@angular/material/table';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
+import { MatChipsModule } from '@angular/material/chips';
 import { Certificate } from '../../interface/certificate';
 import { CertificateService } from '../../services/certificate.service';
 
@@ -20,6 +21,7 @@ import { CertificateService } from '../../services/certificate.service';
     DatePipe,
     MatTableModule,
     MatProgressBarModule,
+    MatChipsModule,
   ],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css',
