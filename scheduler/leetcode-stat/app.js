@@ -69,7 +69,7 @@ async function fetchAndSaveRecentSubmissions(username, usernameCN) {
   }
 }
 
-fetchAndSaveRecentSubmissions('boxlin', 'ddos-h');
+fetchAndSaveRecentSubmissions('boxlin', 'aiml');
 
 
 
