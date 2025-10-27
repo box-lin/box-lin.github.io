@@ -49,24 +49,24 @@
     "lang": "LeetcodeCN Graphql Not Supported"
   },
   {
-    "title": "Frequency of the Most Frequent Element",
-    "titleSlug": "frequency-of-the-most-frequent-element",
-    "timestamp": "1736723686",
+    "title": "Unique Binary Search Trees",
+    "titleSlug": "unique-binary-search-trees",
+    "timestamp": "1752806348",
     "statusDisplay": "Accepted",
-    "lang": "LeetcodeCN Graphql Not Supported"
+    "lang": "python3"
   },
   {
-    "title": "Minimum Initial Energy to Finish Tasks",
-    "titleSlug": "minimum-initial-energy-to-finish-tasks",
-    "timestamp": "1736041123",
-    "statusDisplay": "Accepted",
-    "lang": "LeetcodeCN Graphql Not Supported"
+    "title": "Unique Binary Search Trees",
+    "titleSlug": "unique-binary-search-trees",
+    "timestamp": "1752806320",
+    "statusDisplay": "Time Limit Exceeded",
+    "lang": "python3"
   },
   {
-    "title": "Merge Intervals",
-    "titleSlug": "merge-intervals",
-    "timestamp": "1734852054",
+    "title": "Count Special Triplets",
+    "titleSlug": "count-special-triplets",
+    "timestamp": "1750486051",
     "statusDisplay": "Accepted",
-    "lang": "LeetcodeCN Graphql Not Supported"
+    "lang": "python3"
   }
 ]
